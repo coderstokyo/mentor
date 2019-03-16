@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Mentor } from './app/containers';
+import { Mentor } from './containers';
 
 class App extends Component {
   render() {

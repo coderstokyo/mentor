@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {},
-  "main": "dist/containers/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src/app --out-dir dist"
+    "build": "babel src --out-dir dist"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -22,5 +22,11 @@
     "react-scripts": "2.1.8",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
