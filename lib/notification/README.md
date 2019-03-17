@@ -9,7 +9,7 @@ yarn install
 ```
 
 ```bash
-yarn start
+yarn dev
 ```
 
 **npm**
@@ -19,12 +19,10 @@ npm install
 ```
 
 ```bash
-npm start
+npm run dev
 ```
 
-## Release
-
-The one who has permission will publish the package to npm.
+## Production
 
 **yarn**
 
@@ -36,6 +34,10 @@ yarn install
 yarn build
 ```
 
+```bash
+yarn prod
+```
+
 **npm**
 
 ```bash
@@ -45,3 +47,11 @@ npm install
 ```bash
 npm run build
 ```
+
+```bash
+npm run prod
+```
+
+## Release
+
+The one who has permission will push the final JS file from `dist/` to the cloud.
